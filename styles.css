@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap");
+
+:root {
+  --primaryFont: "Reddit Mono", monospace;
+  /** CSS DARK THEME PRIMARY COLORS */
+  --color-primary-100: #4cb092;
+  --color-primary-200: #63b99e;
+  --color-primary-300: #79c2a9;
+  --color-primary-400: #8dcbb5;
+  --color-primary-500: #a0d3c1;
+  --color-primary-600: #b3dccd;
+  /** CSS DARK THEME SURFACE COLORS */
+  --color-surface-100: #080808;
+  --color-surface-200: #222222;
+  --color-surface-300: #393939;
+  --color-surface-400: #525252;
+  --color-surface-500: #6c6c6c;
+  --color-surface-600: #888888;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--primaryFont);
+}
+
+section {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-surface-100);
+}
+
+.mainContainer {
+  width: 500px;
+}
+
+.textBox {
+  background-color: var(--color-surface-200);
+  outline: transparent;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 70%;
+  color: whitesmoke;
+  font-family: var(--primaryFont);
+  font-size: 16px;
+}
+
+.submitBut {
+  background-color: var(--color-primary-500);
+  border: none;
+  padding: 10px;
+  border-radius: 24px;
+  font-family: var(--primaryFont);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.list {
+  padding-top: 20px;
+}
+
+h1 {
+  color: whitesmoke;
+  padding-bottom: 10px;
+}

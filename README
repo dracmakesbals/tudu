@@ -1,0 +1,10 @@
+a to do list web app which lets you type and store a list of objectives into the site and lets you trash them once completed.
+
+what it does--
+
+1. have a text input form wher user can type [✔️]
+2. a submit button which submits the text when clicked [✔️]
+3. submitted text is then displayed inside a div [✔️]
+4. a trash button next to each submitted text which deletes it [✔️]
+5. stores the information in cache
+6. make it look nice [✔️]
